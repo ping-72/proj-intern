@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import MakerShoutouts from "./Components/makerShoutout";
+// import Navbar from "./Components/header";
+import Navbar1 from "./Components/header_test";
+import CommentSection from "./Components/Comment";
+import TrendingLaunches from "./Components/trending_lauches";
+import LaunchInfo from "./Components/aboutthisLaunch";
+import Intro from "./Components/Intro";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      {/* <Navbar/> */}
+      {/* <Navbar1/> */}
+      <Intro/>
+      <MakerShoutouts/>
+      <CommentSection/>
+      <LaunchInfo/>
+      <TrendingLaunches/>
+      
     </div>
   );
 }

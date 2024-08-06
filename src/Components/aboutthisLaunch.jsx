@@ -14,11 +14,11 @@ const LaunchInfo = () => {
                          <div className='text-left py-7 px-10 !text-xl '>
                               <Typography variant="body2" color="textSecondary">
                                    VideoDubber - Fast Video Translator was hunted by{' '}
-                                   <a href="#" className="text-blue-600">Souvic Chakraborty</a> in{' '}
-                                   <a href="#" className="text-blue-600">Languages</a>,{' '}
-                                   <a href="#" className="text-blue-600">Artificial Intelligence</a>,{' '}
-                                   <a href="#" className="text-blue-600">Video</a>. Made by{' '}
-                                   <a href="#" className="text-blue-600">Souvic Chakraborty</a>. Posted on August 6th, 2024.
+                                   <a className="text-blue-600">Souvic Chakraborty</a> in{' '}
+                                   <a className="text-blue-600">Languages</a>,{' '}
+                                   <a className="text-blue-600">Artificial Intelligence</a>,{' '}
+                                   <a className="text-blue-600">Video</a>. Made by{' '}
+                                   <a className="text-blue-600">Souvic Chakraborty</a>. Posted on August 6th, 2024.
                               </Typography>
                          </div>
                     </Box>

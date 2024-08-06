@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Image } from '@mui/icons-material';
-import { AppBar, Toolbar, Typography, Button, Paper, Box, Avatar, Link } from '@mui/material';
+import { Typography, Box, } from '@mui/material';
 
 const Intro = () => {
      const [count, setCount] = useState(0);

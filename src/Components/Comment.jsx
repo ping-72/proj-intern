@@ -4,7 +4,6 @@ import { styled } from '@mui/material/styles';
 import ThumbUpAltOutlinedIcon from '@mui/icons-material/ThumbUpAltOutlined';
 import ReplyOutlinedIcon from '@mui/icons-material/ReplyOutlined';
 import ShareOutlinedIcon from '@mui/icons-material/ShareOutlined';
-import ReportOutlinedIcon from '@mui/icons-material/ReportOutlined';
 
 const Comment = styled(Paper)(({ theme }) => ({
      padding: theme.spacing(2),
